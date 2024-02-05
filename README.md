@@ -4,7 +4,7 @@ This repository contains code for two demos showcasing how to use AI Models and 
 ## Example 1: social media posts 
 Messages are processed one by one and we use two models to get sentiment analysis and offensiveness score. Origin of data is Mastodon, you can load Mastodon data by following the steps described in this article - https://aiven.io/developer/mastodon-kafka-js.
 
-## Example 2: amazon reviews
+## Example 2: Amazon reviews
 Each review is processed using two AI models - one to get sentiment analysis and another to classify the review.
 Data is taken from Amazon Fine Food Reviews.
 
