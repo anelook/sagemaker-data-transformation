@@ -1,0 +1,1 @@
+Add your Kafka certificates over here: ca.pem, service.cert and service.key
