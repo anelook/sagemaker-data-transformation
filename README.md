@@ -6,7 +6,7 @@ Messages are processed one by one and we use two models to get sentiment analysi
 
 ## Example 2: Amazon reviews
 Each review is processed using two AI models - one to get sentiment analysis and another to classify the review.
-Data is taken from Amazon Fine Food Reviews.
+Data is taken from Amazon Fine Food Reviews dataset - https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews
 
 ## Visualisation
 You can visualise the results with OpenSearch Dashboards. You'll find an example of Kafka-OpenSearch connector in the file  opensearch-connector.json.
