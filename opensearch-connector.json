@@ -1,0 +1,14 @@
+{
+  "name": "sink_connector",
+  "connection.url": "https://YOUR_OPENSEARCH_HOST:PORT",
+  "key.ignore": "true",
+  "connector.class": "io.aiven.kafka.connect.opensearch.OpensearchSinkConnector",
+  "connection.username": "YOUR_SERVICE_USER",
+  "schema.ignore": "true",
+  "tasks.max": "1",
+  "connection.password": "YOUR_SERVICE_PASSWORD",
+  "key.converter": "org.apache.kafka.connect.storage.StringConverter",
+  "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+  "topics": "TOPIC_NAME",
+  "value.converter.schemas.enable": "false"
+}
